@@ -13,7 +13,7 @@ $ readmoney 1234567890
 
 ## 설치방법
 
-* `readmoney`는 [rev](https://www.freebsd.org/cgi/man.cgi?query=rev&sektion=1&apropos=0&manpath=freebsd)에 의존성이 있습니다만 macOS나 Linux 계열 운영체제에 기본으로 설치되어 있습니다.
+`readmoney`는 [rev](https://www.freebsd.org/cgi/man.cgi?query=rev&sektion=1&apropos=0&manpath=freebsd)에 의존성이 있습니다만 macOS나 Linux 계열 운영체제에 기본으로 설치되어 있습니다.
 
 1. `git clone https://github.com/datalater/readmoney.git`
 2. `cd readmoney`
@@ -21,3 +21,7 @@ $ readmoney 1234567890
 4. `.bashrc`나 `.bash_profile`에 `[ -f ~/.local/bin/readmoney.sh ] && source ~/.local/bin/readmoney.sh`를 추가하세요.
 
 > `zsh`을 사용한다면 `.zshrc`에 추가하세요.
+
+## 참조
+
+* [johngrib/fav-dir](https://github.com/johngrib/fav-dir): readmoney를 만들 때 셸 스크립트와 사용 원리, README.md 문서 형식을 참조했습니다.
